@@ -17,6 +17,10 @@
 		31AF833621DFF91100EB4EAC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833421DFF91100EB4EAC /* DataViewController.swift */; };
 		31AF833821DFF92200EB4EAC /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833721DFF92200EB4EAC /* AbstractionViewController.swift */; };
 		31AF833A21DFF93100EB4EAC /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833921DFF93100EB4EAC /* AlgorithmController.swift */; };
+		31AF833D21DFF9BD00EB4EAC /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833B21DFF9BD00EB4EAC /* ArtCell.swift */; };
+		31AF833E21DFF9BD00EB4EAC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833C21DFF9BD00EB4EAC /* DrawingView.swift */; };
+		31AF834121DFFA9700EB4EAC /* Algorythms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF834021DFFA9700EB4EAC /* Algorythms.swift */; };
+		31AF834321DFFAA400EB4EAC /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF834221DFFAA400EB4EAC /* BucketItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		31AF833421DFF91100EB4EAC /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		31AF833721DFF92200EB4EAC /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		31AF833921DFF93100EB4EAC /* AlgorithmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
+		31AF833B21DFF9BD00EB4EAC /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		31AF833C21DFF9BD00EB4EAC /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		31AF834021DFFA9700EB4EAC /* Algorythms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorythms.swift; sourceTree = "<group>"; };
+		31AF834221DFFAA400EB4EAC /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		31AF831521DFF7CB00EB4EAC /* MegaCSP */ = {
 			isa = PBXGroup;
 			children = (
+				31AF833F21DFFA8400EB4EAC /* Model */,
 				31AF832821DFF7F400EB4EAC /* Resources */,
 				31AF832921DFF7FF00EB4EAC /* Controller */,
 				31AF832A21DFF80800EB4EAC /* View */,
@@ -95,6 +104,8 @@
 		31AF832A21DFF80800EB4EAC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				31AF833B21DFF9BD00EB4EAC /* ArtCell.swift */,
+				31AF833C21DFF9BD00EB4EAC /* DrawingView.swift */,
 				31AF831A21DFF7CB00EB4EAC /* Main.storyboard */,
 				31AF831F21DFF7D700EB4EAC /* LaunchScreen.storyboard */,
 			);
@@ -133,6 +144,15 @@
 				31AF833921DFF93100EB4EAC /* AlgorithmController.swift */,
 			);
 			path = Algorithoms;
+			sourceTree = "<group>";
+		};
+		31AF833F21DFFA8400EB4EAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31AF834221DFFAA400EB4EAC /* BucketItem.swift */,
+				31AF834021DFFA9700EB4EAC /* Algorythms.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,12 +227,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				31AF833A21DFF93100EB4EAC /* AlgorithmController.swift in Sources */,
+				31AF834121DFFA9700EB4EAC /* Algorythms.swift in Sources */,
 				31AF833521DFF91100EB4EAC /* BucketItemCell.swift in Sources */,
 				31AF833221DFF8E600EB4EAC /* CreativityController.swift in Sources */,
 				31AF833621DFF91100EB4EAC /* DataViewController.swift in Sources */,
 				31AF833821DFF92200EB4EAC /* AbstractionViewController.swift in Sources */,
 				31AF833121DFF8E600EB4EAC /* ArtCollectionViewController.swift in Sources */,
+				31AF833E21DFF9BD00EB4EAC /* DrawingView.swift in Sources */,
 				31AF831721DFF7CB00EB4EAC /* AppDelegate.swift in Sources */,
+				31AF833D21DFF9BD00EB4EAC /* ArtCell.swift in Sources */,
+				31AF834321DFFAA400EB4EAC /* BucketItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
