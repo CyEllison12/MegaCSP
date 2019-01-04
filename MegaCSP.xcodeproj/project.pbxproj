@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		31AF831721DFF7CB00EB4EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF831621DFF7CB00EB4EAC /* AppDelegate.swift */; };
-		31AF831921DFF7CB00EB4EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF831821DFF7CB00EB4EAC /* ViewController.swift */; };
 		31AF831C21DFF7CB00EB4EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AF831A21DFF7CB00EB4EAC /* Main.storyboard */; };
 		31AF831E21DFF7D700EB4EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AF831D21DFF7D700EB4EAC /* Assets.xcassets */; };
 		31AF832121DFF7D700EB4EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AF831F21DFF7D700EB4EAC /* LaunchScreen.storyboard */; };
+		31AF833121DFF8E600EB4EAC /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF832F21DFF8E600EB4EAC /* ArtCollectionViewController.swift */; };
+		31AF833221DFF8E600EB4EAC /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833021DFF8E600EB4EAC /* CreativityController.swift */; };
+		31AF833521DFF91100EB4EAC /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833321DFF91100EB4EAC /* BucketItemCell.swift */; };
+		31AF833621DFF91100EB4EAC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833421DFF91100EB4EAC /* DataViewController.swift */; };
+		31AF833821DFF92200EB4EAC /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833721DFF92200EB4EAC /* AbstractionViewController.swift */; };
+		31AF833A21DFF93100EB4EAC /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AF833921DFF93100EB4EAC /* AlgorithmController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31AF831321DFF7CB00EB4EAC /* MegaCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AF831621DFF7CB00EB4EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31AF831821DFF7CB00EB4EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31AF831B21DFF7CB00EB4EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31AF831D21DFF7D700EB4EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31AF832021DFF7D700EB4EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31AF832221DFF7D700EB4EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AF832F21DFF8E600EB4EAC /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		31AF833021DFF8E600EB4EAC /* CreativityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
+		31AF833321DFF91100EB4EAC /* BucketItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		31AF833421DFF91100EB4EAC /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		31AF833721DFF92200EB4EAC /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		31AF833921DFF93100EB4EAC /* AlgorithmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,75 @@
 		31AF831521DFF7CB00EB4EAC /* MegaCSP */ = {
 			isa = PBXGroup;
 			children = (
-				31AF831621DFF7CB00EB4EAC /* AppDelegate.swift */,
-				31AF831821DFF7CB00EB4EAC /* ViewController.swift */,
-				31AF831A21DFF7CB00EB4EAC /* Main.storyboard */,
-				31AF831D21DFF7D700EB4EAC /* Assets.xcassets */,
-				31AF831F21DFF7D700EB4EAC /* LaunchScreen.storyboard */,
-				31AF832221DFF7D700EB4EAC /* Info.plist */,
+				31AF832821DFF7F400EB4EAC /* Resources */,
+				31AF832921DFF7FF00EB4EAC /* Controller */,
+				31AF832A21DFF80800EB4EAC /* View */,
 			);
 			path = MegaCSP;
+			sourceTree = "<group>";
+		};
+		31AF832821DFF7F400EB4EAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31AF831621DFF7CB00EB4EAC /* AppDelegate.swift */,
+				31AF831D21DFF7D700EB4EAC /* Assets.xcassets */,
+				31AF832221DFF7D700EB4EAC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31AF832921DFF7FF00EB4EAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31AF832E21DFF85D00EB4EAC /* Algorithoms */,
+				31AF832D21DFF85200EB4EAC /* Abstraction */,
+				31AF832C21DFF84B00EB4EAC /* Creativity */,
+				31AF832B21DFF83900EB4EAC /* Data */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31AF832A21DFF80800EB4EAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31AF831A21DFF7CB00EB4EAC /* Main.storyboard */,
+				31AF831F21DFF7D700EB4EAC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31AF832B21DFF83900EB4EAC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				31AF833321DFF91100EB4EAC /* BucketItemCell.swift */,
+				31AF833421DFF91100EB4EAC /* DataViewController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		31AF832C21DFF84B00EB4EAC /* Creativity */ = {
+			isa = PBXGroup;
+			children = (
+				31AF832F21DFF8E600EB4EAC /* ArtCollectionViewController.swift */,
+				31AF833021DFF8E600EB4EAC /* CreativityController.swift */,
+			);
+			path = Creativity;
+			sourceTree = "<group>";
+		};
+		31AF832D21DFF85200EB4EAC /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				31AF833721DFF92200EB4EAC /* AbstractionViewController.swift */,
+			);
+			path = Abstraction;
+			sourceTree = "<group>";
+		};
+		31AF832E21DFF85D00EB4EAC /* Algorithoms */ = {
+			isa = PBXGroup;
+			children = (
+				31AF833921DFF93100EB4EAC /* AlgorithmController.swift */,
+			);
+			path = Algorithoms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AF831921DFF7CB00EB4EAC /* ViewController.swift in Sources */,
+				31AF833A21DFF93100EB4EAC /* AlgorithmController.swift in Sources */,
+				31AF833521DFF91100EB4EAC /* BucketItemCell.swift in Sources */,
+				31AF833221DFF8E600EB4EAC /* CreativityController.swift in Sources */,
+				31AF833621DFF91100EB4EAC /* DataViewController.swift in Sources */,
+				31AF833821DFF92200EB4EAC /* AbstractionViewController.swift in Sources */,
+				31AF833121DFF8E600EB4EAC /* ArtCollectionViewController.swift in Sources */,
 				31AF831721DFF7CB00EB4EAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
